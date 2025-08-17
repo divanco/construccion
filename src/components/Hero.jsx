@@ -13,8 +13,8 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mb-8"
         >
-          <h1 className="text-5xl md:text-7xl font-light text-gray-900 tracking-tight mb-4">
-            DI<span className="font-bold">VAN</span>CO
+          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 tracking-tight mb-4">
+            DIVANCO
           </h1>
           <div className="w-24 h-1 bg-gray-900 mx-auto"></div>
         </motion.div>
@@ -37,12 +37,12 @@ const Hero = () => {
           </p>
         </motion.div>
 
-        {/* Features Preview */}
+        {/* Features Preview - Cambiado a grid de 2 columnas */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="grid md:grid-cols-3 gap-8 mb-16"
+          className="grid md:grid-cols-2 gap-8 mb-16 max-w-2xl mx-auto"
         >
           <FeatureCard 
             icon="🏗️"
@@ -53,11 +53,6 @@ const Hero = () => {
             icon="⚙️"
             title="Mejor Experiencia"
             description="Interfaz renovada y más intuitiva"
-          />
-          <FeatureCard 
-            icon="🚀"
-            title="Más Funciones"
-            description="Herramientas avanzadas para clientes"
           />
         </motion.div>
 
