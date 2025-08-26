@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="w-24 h-1 bg-gray-900 mx-auto"></div>
         </motion.div>
 
-        {/* Main Message */}
+       
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
