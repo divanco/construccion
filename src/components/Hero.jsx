@@ -30,11 +30,25 @@ const Hero = () => {
             Estamos construyendo algo
             <span className="block font-medium text-gray-900">extraordinario</span>
           </h2>
-          
           <p className="text-xl text-gray-600 font-light leading-relaxed max-w-2xl mx-auto">
             Nuestra nueva plataforma está en desarrollo. Prepárate para descubrir 
             una experiencia renovada en arquitectura y construcción.
           </p>
+          {/* Botón de WhatsApp */}
+          <div className="mt-8">
+            <a
+              href="https://wa.me/573105706816"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg shadow transition-colors duration-200 text-lg"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M16.862 13.487a4.548 4.548 0 0 1-2.01-.547c-.31-.16-.654-.32-1.01-.32-.356 0-.7.16-1.01.32a4.548 4.548 0 0 1-2.01.547c-.62 0-1.12-.5-1.12-1.12V8.62c0-.62.5-1.12 1.12-1.12h6.02c.62 0 1.12.5 1.12 1.12v3.747c0 .62-.5 1.12-1.12 1.12z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 17.25c-2.485 0-4.5-2.015-4.5-4.5s2.015-4.5 4.5-4.5 4.5 2.015 4.5 4.5-2.015 4.5-4.5 4.5z" />
+              </svg>
+              Contáctanos por WhatsApp
+            </a>
+          </div>
         </motion.div>
 
         {/* Features Preview - Cambiado a grid de 2 columnas */}
